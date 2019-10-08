@@ -1,5 +1,4 @@
 import java.util.LinkedList;
-import java.util.Stack;
 
 public class Stack {
     private static class Node {
@@ -36,7 +35,7 @@ public class Stack {
     public static void main(String[] args) {
         LinkedList<Integer> l = new LinkedList<Integer>();
         // Stack s = null;
-        Stack<Integer> s = new Stack<Integer>();
+        // Stack<Integer> s = new Stack<Integer>();
 
         l.add(1);
         l.add(2);

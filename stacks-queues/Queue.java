@@ -43,6 +43,7 @@ public class Queue {
 
     public static void main(String[] args) {
         LinkedList<Integer> l = new LinkedList<Integer>();
+        LinkedList<Integer> rl = new LinkedList<Integer>();
         Stack<Integer> s = new Stack<Integer>();
 
         l.add(1);
@@ -58,7 +59,9 @@ public class Queue {
         }
 
         while (!s.empty()) {
-            System.out.println(s.pop());
+            // System.out.println(s.pop());
+            rl.add(s.pop());
         }
+        System.out.println(rl);
     }
 }
